@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #fafafa;
+}
+header.hero {
+  background: url('./assets/back.jpg') center/cover no-repeat;
+  height: 50vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header.hero::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.4);
+}
+.hero-content {
+  position: relative;
+  color: white;
+  text-align: center;
+  z-index: 1;
+  padding: 0 1rem;
+}
+.hero-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+.search-wrapper {
+  display: inline-flex;
+  width: 100%;
+  max-width: 500px;
+}
+.search-wrapper input {
+  flex: 1;
+  padding: .75rem;
+  border: none;
+  border-radius: 4px 0 0 4px;
+  font-size: 1rem;
+}
+.search-wrapper button {
+  padding: .75rem 1.5rem;
+  border: none;
+  background: #ff8c00;
+  color: white;
+  font-size: 1rem;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+}
+.home {
+  padding: 1rem;
+}
+.categories {
+  display: flex;
+  gap: .5rem;
+  overflow-x: auto;
+  padding: .75rem 0;
+}
+.categories button {
+  flex: 0 0 auto;
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: .5rem 1rem;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background .2s, box-shadow .2s;
+}
+.categories button:hover {
+  background: #ff6347;
+  color: #fff;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+.recipe-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 1rem;
+}
+.card {
+  background: white;
+  border-radius: 8px;
+  text-align: center;
+  padding: .5rem;
+  text-decoration: none;
+  color: inherit;
+  border: 1px solid #ddd;
+  transition: transform .2s ease, box-shadow .2s ease;
+}
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+.card img {
+  width: 100%;
+  border-radius: 4px;
+}
+.detail {
+  padding: 1rem;
+}
+.detail img {
+  width: 100%;
+  border-radius: 8px;
+  margin: 1rem 0;
+}
+.detail ul {
+  padding-left: 1.2rem;
+}
