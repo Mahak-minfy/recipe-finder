@@ -54,6 +54,7 @@ header.hero::after {
 }
 .categories {
   display: flex;
+  margin-left: 30%;
   gap: .5rem;
   overflow-x: auto;
   padding: .75rem 0;
@@ -100,9 +101,12 @@ header.hero::after {
   padding: 1rem;
 }
 .detail img {
-  width: 100%;
+  width: 50%;
+  height: 20%;
   border-radius: 8px;
+  display: flex;
   margin: 1rem 0;
+  margin-left: 30%;
 }
 .detail ul {
   padding-left: 1.2rem;

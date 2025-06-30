@@ -1,12 +1,36 @@
-# React + Vite
+# Recipe Finder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Recipe Finder is a web application built with React that allows users to search for recipes by ingredients, cuisine, or dish name. Easily discover new recipes and get inspired to cook delicious meals!
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Search for recipes by keyword or ingredient
+- View detailed recipe instructions and ingredients
+- Responsive and user-friendly interface
+- Fast and dynamic search experience
 
-## Expanding the ESLint configuration
+## Screenshot
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+![Recipe Finder Screenshot](./src/assets/Screenshot%202025-06-30%20085935.png)
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v14 or higher)
+
+### Running the App
+
+```bash
+npm start
+```
+
+The app will run at [http://localhost:3000](http://localhost:3000).
+
+## Technologies Used
+
+- React
+- CSS Modules / Styled Components
+- Fetch API / Axios
+
+
