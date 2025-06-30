@@ -94,7 +94,7 @@ header.hero::after {
   box-shadow: 0 10px 20px rgba(0,0,0,0.15);
 }
 .card img {
-  width: 100%;
+  width: 50%;
   border-radius: 4px;
 }
 .detail {
