@@ -12,7 +12,9 @@ Recipe Finder is a web application built with React that allows users to search 
 ## Screenshot
 
 ![Recipe Finder Screenshot](./reciper-finder/src/assets/Screenshot%202025-06-30%20085935.png)
-![Recipe Finder Screenshot](./reciper-finder/src/assets/recipe.png)
+![Recipe Finder Screenshot](./reciper-finder/src/assets/rec1.png)
+![Recipe Finder Screenshot](./reciper-finder/src/assets/rec2.png)
+
 
 
 ## Getting Started
@@ -24,7 +26,8 @@ Recipe Finder is a web application built with React that allows users to search 
 ### Running the App
 
 ```bash
-npm start
+npm install 
+npm run dev
 ```
 
 The app will run at [http://localhost:3000](http://localhost:3000).
