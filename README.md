@@ -26,8 +26,7 @@ Recipe Finder is a web application built with React that allows users to search 
 ### Running the App
 
 ```bash
-npm install 
-npm run dev
+npm start
 ```
 
 The app will run at [http://localhost:3000](http://localhost:3000).
